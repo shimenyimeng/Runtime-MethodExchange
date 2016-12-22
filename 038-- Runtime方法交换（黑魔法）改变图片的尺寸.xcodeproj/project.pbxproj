@@ -15,6 +15,7 @@
 		D9C33D791E0BB7840040FCC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C33D771E0BB7840040FCC9 /* LaunchScreen.storyboard */; };
 		D9C33D841E0BB7840040FCC9 /* _38___Runtime________________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C33D831E0BB7840040FCC9 /* _38___Runtime________________Tests.m */; };
 		D9C33D8F1E0BB7840040FCC9 /* _38___Runtime________________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C33D8E1E0BB7840040FCC9 /* _38___Runtime________________UITests.m */; };
+		D9C33D9E1E0BB8F30040FCC9 /* UIImageView+methodExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C33D9D1E0BB8F30040FCC9 /* UIImageView+methodExchange.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D9C33D8A1E0BB7840040FCC9 /* 038-- Runtime方法交换（黑魔法）改变图片的尺寸UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "038-- Runtime方法交换（黑魔法）改变图片的尺寸UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C33D8E1E0BB7840040FCC9 /* _38___Runtime________________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_38___Runtime________________UITests.m"; sourceTree = "<group>"; };
 		D9C33D901E0BB7840040FCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C33D9C1E0BB8F30040FCC9 /* UIImageView+methodExchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+methodExchange.h"; sourceTree = "<group>"; };
+		D9C33D9D1E0BB8F30040FCC9 /* UIImageView+methodExchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+methodExchange.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D9C33D6D1E0BB7840040FCC9 /* AppDelegate.m */,
 				D9C33D6F1E0BB7840040FCC9 /* ViewController.h */,
 				D9C33D701E0BB7840040FCC9 /* ViewController.m */,
+				D9C33D9C1E0BB8F30040FCC9 /* UIImageView+methodExchange.h */,
+				D9C33D9D1E0BB8F30040FCC9 /* UIImageView+methodExchange.m */,
 				D9C33D721E0BB7840040FCC9 /* Main.storyboard */,
 				D9C33D751E0BB7840040FCC9 /* Assets.xcassets */,
 				D9C33D771E0BB7840040FCC9 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				D9C33D711E0BB7840040FCC9 /* ViewController.m in Sources */,
 				D9C33D6E1E0BB7840040FCC9 /* AppDelegate.m in Sources */,
+				D9C33D9E1E0BB8F30040FCC9 /* UIImageView+methodExchange.m in Sources */,
 				D9C33D6B1E0BB7840040FCC9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
